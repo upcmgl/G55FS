@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="SIM_G_METER.exe"/>
+    <OBJFILES value="SIM_G_METER.obj topdevp_main.obj about.obj Unit_TaskThread.obj 
+      Unit_exComm.obj Unit_ProtocolHander1.obj Unit_OS.obj 
+      Unit_readPortService.obj TaskThread.obj Unit_FLASH.obj Unit_vfm_memory.obj"/>
+    <RESFILES value="SIM_G_METER.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) topdevp_main.dfm about.dfm Unit_exComm.dfm 
+      Unit_ProtocolHander1.dfm Unit_readPortService.dfm TaskThread.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dbrtl.lib vcldb.lib dclusr.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib dclusr.lib vcldb.lib dbrtl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi dclusr.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="__SOFT_SIMULATOR__;_DEBUG;__USE_FAT14__;__USE_ONE_FLASH__;__GMETER__"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="SIM_G_METER.cpp"/>
+    <INCLUDEPATH value="D:\SoftWare\CBuilder6\Projects;&quot;D:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;D:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\tpos\inc;..\src\app_plat;..\src\tpos;..\src\Q1376_1;..\src\fun;..\src\os_file"/>
+    <LIBPATH value="..\src;D:\SoftWare\CBuilder6\Projects;C:\windows\system32;$(BCB)\Projects\Lib;&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;$(BCB)\lib\obj;$(BCB)\lib;..\obj"/>
+    <WARNINGS value="-w-rch -w-par -wdef -w-csu -w-aus"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ID:\SoftWare\CBuilder6\Projects 
+      -I&quot;D:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
+      -I&quot;D:\Program Files (x86)\Borland\CBuilder6\Bin&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -I..\src -I..\src\tpos\inc -I..\src\app_plat 
+      -I..\src\tpos -I..\src\Q1376_1 -I..\src\fun -I..\src\os_file -src_suffix 
+      cpp -D__SOFT_SIMULATOR__ -D_DEBUG -D__USE_FAT14__ -D__USE_ONE_FLASH__ 
+      -D__GMETER__"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="SIM_G_METER.cpp" FORMNAME="" UNITNAME="SIM_G_METER" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="topdevp_main.cpp" FORMNAME="TOPDEVP_MainForm" UNITNAME="topdevp_main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SIM_G_METER.res" FORMNAME="" UNITNAME="SIM_G_METER.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="AboutBox" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_TaskThread.cpp" FORMNAME="" UNITNAME="Unit_TaskThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_exComm.cpp" FORMNAME="Task_exComm" UNITNAME="Unit_exComm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_ProtocolHander1.cpp" FORMNAME="Task_ProtocolHandler1" UNITNAME="Unit_ProtocolHander1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_OS.cpp" FORMNAME="" UNITNAME="Unit_OS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_readPortService.cpp" FORMNAME="Task_readPortService" UNITNAME="Unit_readPortService" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TaskThread.cpp" FORMNAME="MDIChildTaskThread" UNITNAME="TaskThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_FLASH.cpp" FORMNAME="" UNITNAME="Unit_FLASH" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit_vfm_memory.cpp" FORMNAME="" UNITNAME="Unit_vfm_memory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=30
+Item0=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\tpos\inc;..\src\app_plat;..\src\tpos;..\src\Q1376_1;..\src\fun;..\src\os_file
+Item1=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\tpos\inc;..\src\app_plat;..\src\tpos;..\src\Q1376_1;..\src\fun
+Item2=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\tpos\inc;..\src\app_plat;..\src\tpos;..\src\Q1376_1
+Item3=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src\fun\inc;..\src;..\src\app_plat;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item4=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\fun\inc;..\src\app_plat;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item5=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\app_plat;..\src\fun\inc;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item6=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\app_plat;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item7=D:\SoftWare\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item8=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\fun;..\src\tpos;..\src\Q1376_1
+Item9=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_platform\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\dev_config\dev_ngrid_zd\driver;..\tops_platform\firmware\src\dev_platform\driver\display_160160
+Item10=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_platform\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\dev_config\dev_ngrid_zd\driver
+Item11=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\dev_config\dev_ngrid_zd\driver
+Item12=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\tpos;..\tops_platform\firmware\src\dev_config\dev_ngrid_zd\driver
+Item13=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\service;..\tops_platform\firmware\src\dev_platform\tpos
+Item14=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_platform\ndfat;..\tops_devp_oop\firmware\src\dev_platform\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_platform\driver;..\tops_devp_oop;..\tops_devp_oop\firmware\src\dev_platform;..\tops_devp_oop\firmware\src\dev_platform\service
+Item15=..\src\dev_plat\service;..\src\app_plat\OOP;..\src\dev_plat\fun;D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_plat\ndfat;..\tops_devp_oop\firmware\src\dev_plat\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_plat\driver;..\tops_devp_oop
+Item16=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\tops_devp_oop\firmware\src\app_plat\OOP;..\tops_devp_oop\firmware\src\dev_plat\channel;..\tops_devp_oop\firmware\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\tops_devp_oop\firmware\src;..\tops_devp_oop\firmware\src\dev_plat\service;..\tops_devp_oop\firmware\src\dev_plat\ndfat;..\tops_devp_oop\firmware\src\dev_plat\tpos;..\tops_devp_oop\firmware\src\app_cust;..\tops_devp_oop\firmware\src\app_plat;..\tops_devp_oop\firmware\src\app_plat\readmeter;..\tops_devp_oop\firmware\src\dev_plat;..\tops_devp_oop\firmware\src\dev_plat\driver;..\tops_devp_oop
+Item17=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;..\src\dev_plat\channel;..\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver;..\tops_devp_oop
+Item18=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;..\src\dev_plat\channel;..\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver;..\tops_devp_oop\
+Item19=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;..\src\dev_plat\channel;..\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver
+Item20=D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;..\src\dev_plat\channel;..\src\dev_plat\fun;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver
+Item21=D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;C:\windows\system32;src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver
+Item22=..\src\app_plat\OOP;C:\windows\system32;src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver
+Item23=src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;..\src\dev_plat\driver
+Item24=src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat
+Item25=..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;D:\TopsWork\zyg\tops_devp\firmware\src\dev_plat\fun
+Item26=src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;src\app_cust
+Item27=..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat;src\app_cust
+Item28=src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat
+Item29=..\src\dev_plat\channel;..\src\dev_plat\fun;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;..\src;..\src\dev_plat\service;..\src\dev_plat\ndfat;..\src\dev_plat\tpos;..\src\app_cust;..\src\app_plat;..\src\app_plat\Q376_1;..\src\app_plat\readmeter;..\src\dev_plat
+
+[HistoryLists\hlLibraryPath]
+Count=17
+Item0=..\src;D:\SoftWare\CBuilder6\Projects;C:\windows\system32;$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;..\obj
+Item1=C:\windows\system32;$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;..\obj
+Item2=C:\windows\system32;$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\windows\system32;$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj
+Item4=D:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;C:\windows\system32;..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj;.\out
+Item5=D:\Program Files (x86)\Borland\CBuilder6\Bin;..\src\app_plat\OOP;C:\windows\system32;..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj;.\out
+Item6=..\src\app_plat\OOP;C:\windows\system32;..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj;.\out
+Item7=..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj;.\out
+Item8=src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj;.\out
+Item9=src\app_cust;src\dev_plat\tpos;src\dev_plat;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\service;src\dev_plat\ndfat;src\dev_plat\fun;..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj
+Item10=..\src\app_cust;..\src\dev_plat\tpos;..\src\dev_plat;$(BCB)\Projects\Lib;..\src\dev_plat\channel;..\src\app_plat\readmeter;..\src\app_plat\Q376_1;..\src\dev_plat\ndfat;..\src\dev_plat\fun;..\src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj
+Item11=src\app_cust;src\dev_plat\tpos;src\dev_plat;$(BCB)\Projects\Lib;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\ndfat;src\dev_plat\fun;src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj
+Item12=src\dev_plat\tpos;src\dev_plat;$(BCB)\Projects\Lib;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\ndfat;src\dev_plat\fun;src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;.\obj
+Item13=src\dev_plat\tpos;src\dev_plat;$(BCB)\Projects\Lib;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\ndfat;src\dev_plat\fun;src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item14=$(BCB)\Projects\Lib;src\dev_plat\channel;src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\ndfat;src\dev_plat\fun;src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item15=src\app_plat\readmeter;src\app_plat\Q376_1;src\dev_plat\ndfat;src\dev_plat\fun;src\dev_plat\service;C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item16=D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=30
+Item0=__SOFT_SIMULATOR__;_DEBUG;__USE_FAT14__;__USE_ONE_FLASH__;__GMETER__
+Item1=__SOFT_SIMULATOR__;_DEBUG;__USE_FAT14__;__USE_ONE_FLASH__
+Item2=__SOFT_SIMULATOR__;_DEBUG;__USE_FAT14__;__USE_ONE_FLASH__;__32MX695F512L_H
+Item3=__SOFT_SIMULATOR__;_DEBUG;__USE_FAT14__
+Item4=__SOFT_SIMULATOR__;_DEBUG
+Item5=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;__SIM_OOP__
+Item6=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;__SIM_OOP__;__NGRID_HARDWARE_II__
+Item7=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;__SIM_OOP__;__OOP_POWER_CTRL__
+Item8=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;__SIM_OOP__;__OOP_POWER_CTRL__;__PROVICE_JIANGSU__
+Item9=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;NDFAT_TEST_CODE
+Item10=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;NDFAT_TEST_CODE;__PROVINCE_JIANGSU__;__OOP_POWER_CTRL__
+Item11=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__;NDFAT_TEST_CODE;__PROVINCE_JIANGSU__
+Item12=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__LIMIT_CURVE_DEPTH__
+Item13=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__
+Item14=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__;__USE_FILE_REPORT__;__OOP_POWER_CTRL__
+Item15=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__OOP_CY_METER__
+Item16=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__
+Item17=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;CY_TO_OOP
+Item18=__SOFT_SIMULATOR__;_DEBUG;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__;__USE_SAFE_CONFIG_WORD__
+Item19=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__ENABLE_ESAM2__;__OOP_160309__
+Item20=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__COMPUTE_XLOST__;__ENABLE_ESAM2__;__OOP_160309__
+Item21=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__COMPUTE_XLOST__;__ENABLE_ESAM2__
+Item22=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__;__COMPUTE_XLOST__
+Item23=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__;__METER_DOC_F150__
+Item24=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__;__DISPLAY_NEW_GW_2013_V3__
+Item25=__SOFT_SIMULATOR__;_DEBUG;NDFAT_TEST_CODE;__FTP_SHANGHAI_UPDATE__
+Item26=__SOFT_SIMULATOR__;_DEBUG;__USE_2013_UPDATE__;NDFAT_TEST_CODE
+Item27=__SOFT_SIMULATOR__;_DEBUG;__USE_2013_UPDATE__
+Item28=__SOFT_SIMULATOR__;_DEBUG;__cplusplus
+Item29=__SOFT_SIMULATOR__
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=..\obj
+Item1=.\obj
+Item2=.\out
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
